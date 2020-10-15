@@ -7,18 +7,27 @@ require 'game'
 require 'board'
 require 'board_case'
 
+b = "Y"
+while b == "Y"
 
+  my_game = Game.new
+  a = 0
+  while a != 5
+    my_game.plateau
+    my_game.menu
+    if my_game.winner == true
+      break
+    end
+    break if a == 4
+    my_game.plateau
+    my_game.menu2
+    if my_game.winner == true
+      break
+    end
 
-my_game = Game.new
-a = 0
-while a != 5
-  my_game.plateau
-  my_game.menu
-  break if a == 4
-  my_game.plateau
-  my_game.menu2
+    a += 1
+  end
 
-  #break if my_game.win == true
-
-  a += 1
+  puts "veux tu rejouer ? (Y/n)"
+  b = gets.chomp
 end

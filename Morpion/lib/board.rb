@@ -18,16 +18,16 @@ class Board
   end
 
   def plateau
-    puts "=" * 60
+    puts "=".colorize(:light_blue) * 60
     print " " * 20+"|"+" " * 20+"|\n"
     print " " * 9 + "#{@a1.valeur}"+" " * 10+"|"+" " * 9+"#{@a2.valeur}"+" " * 10+"|"+" " * 9+"#{@a3.valeur}\n"
-    puts "=" * 60
+    puts "=".colorize(:light_blue) * 60
     print " " * 20+"|"+" " * 20+"|\n"
     print " " * 9 + "#{@b1.valeur}"+" " * 10+"|"+" " * 9+"#{@b2.valeur}"+" " * 10+"|"+" " * 9+"#{@b3.valeur}\n"
-    puts "=" * 60
+    puts "=".colorize(:light_blue) * 60
     print " " * 20+"|"+" " * 20+"|\n"
     print " " * 9 + "#{@c1.valeur}"+" " * 10+"|"+" " * 9+"#{@c2.valeur}"+" " * 10+"|"+" " * 9+"#{@c3.valeur}\n"
-    puts "=" * 60
+    puts "=".colorize(:light_blue) * 60
   end
 
 

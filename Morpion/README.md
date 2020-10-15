@@ -1,4 +1,2 @@
-Hello, this is a Ruby app ! author: Baptoow 
-Il rest a faire :
-$bundle install
-$rspec --init
+Hello, this is a Ruby app !
+Nous allons donc créer un jeu de morpion, jeu hautement stratégique et follement passionnant s'il en est.
