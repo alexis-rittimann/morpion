@@ -16,12 +16,14 @@ while b == "Y"
     my_game.plateau
     my_game.menu
     if my_game.winner == true
+      my_game.plateau
       break
     end
     break if a == 4
     my_game.plateau
     my_game.menu2
     if my_game.winner == true
+      my_game.plateau
       break
     end
 
